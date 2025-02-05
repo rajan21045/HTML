@@ -1,2 +1,1 @@
-TABLE
-A simple table project that allows users to display, manage, and interact with tabular data efficiently.
+A simple HTML project with clean structure and responsive design.
