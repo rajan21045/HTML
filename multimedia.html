@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="my.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- IMAGE TAG STARTING -->
+    <h2>Image</h2>
+    <img src="my.jpg" alt="my photo" width="50%" height="50%">
+    <!-- IMAGE TAG ENDING -->
+
+    <br>
+    <br>
+    <br>
+
+    <!-- AUDIO TAG STARTING -->
+    <h2>Audio</h2>
+    <audio controls type="audio/mp3" loop autoplay>
+        <source src="NF - HOPE.mp3" type="audio/mp3">
+    </audio>
+    <!-- AUDIO TAG ENDING -->
+
+
+    <br>
+    <br>
+    <br>
+    <h2>Video</h2>
+    <!-- VIDEO TAG STARTING -->
+    <video controls poster="rajkummar.png" width="50%" height="50%" autoplay loop>
+        <source src="NF - HOPE.mp4" type="video/mp4">
+    </video>
+    <!-- VIDEO TAG ENDING -->
+
+    <!-- YouTube Video (Iframe) -->
+    <h2>Embedded YouTube Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tsmPCi7NKrg?si=D9k_lVPMKI8_HxHp"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <!-- SVG -->
+    <h2>SVG Graphic</h2>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+
+
+    <!-- Canvas -->
+    <h2>Canvas Drawing</h2>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+
+
+    <script>
+        // Drawing on Canvas
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle = "blue";
+        ctx.fillRect(20, 20, 150, 50);
+    </script>
+
+
+</body>
+
+</html>
