@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="font-family: 'Poppins', sans-serif; background-color: #f4f4f4; margin: 20px;">
+    <!-- Heading Tag -->
+    <h1 style="text-align: center;">FORM </h1>
+    <fieldset style="width: 96%;" background-color: #e6e6e6;>
+        <legend><b>Sign Up</b></legend>
+        <br>
+        <form action="abc.php" method="post" enctype="multipart/form-data">
+
+
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+
+            <br>
+            <br>
+            <!-- Password -->
+            <label for="password">Password : </label>
+            <input type="password" id="password" name="password" minlength="6" maxlength="12" size="25"
+                placeholder="Enter the password">
+            <br>
+            <br>
+
+            <!-- Phone Number -->
+            <label for="phone">Phone : </label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter Your Phone Number" required
+                pattern="[0-9] {9}">
+            <br>
+            <br>
+
+            <!-- Gender Radio Buttons -->
+            <label>Gender : </label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Your E-mail -->
+            <label for="email">E-mail : </label>
+            <input type="email" id="email" name="email" placeholder="Enter your E-mail" required>
+            <br>
+            <br>
+
+            <!-- Your Address -->
+            <label for="address">Address : </label>
+            <textarea name="address" id="address" cols="20" maxlength="15" minlength="8"
+                placeholder="Enter Your Address"></textarea>
+            <br>
+            <br>
+
+            <!-- Your Date of birth -->
+            <label for="age"> Date of Birth : </label>
+            <input type="date" id="age" name="age">
+            <br>
+            <br>
+
+            <!-- Time of Date -->
+            <label for="birthtime">Time of Birth : </label>
+            <input type="time" name="birthtime" id="birthtime" required>
+            <br>
+            <br>
+
+            <!-- Favorite Color -->
+            <label for="color">Favorite Color : </label>
+            <input type="color" id="color" name="color" value="" required>
+            <br>
+            <br>
+
+            <!-- Roll no. -->
+            <label for="rollno">Roll NO. : </label>
+            <input type="number" id="rollno" name="rollno" value="1" min="1" max="35"
+                placeholder="Enter your roll number">
+            <br>
+            <br>
+
+            <!-- Weight Range -->
+            <label for="weight">Weight Range : </label>
+            <input type="range" name="weight" id="weight" value="55" min="50" max="110">
+            <br>
+            <br>
+
+
+            <!-- Profile Picture -->
+            <label for="profile_pic">Profile Picture : </label>
+            <input type="file" id="profile_pic" name="profile_pic" accept="image/*">
+            <br><br>
+
+            <!-- Country Select -->
+            <label for="coun">Country : </label>
+            <select name="Country" id="Coun">
+                <option value="" selected disabled hidden>Select Your Opition</option>
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="Uk">UK</option>
+                <option value="USA">USA</option>
+            </select>
+            <br>
+            <br>
+
+            <!-- Interest -->
+            <label>Interest :</label>
+            <input type="checkbox" name="interest" id="dancing" value="dancing">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" name="interest" id="singing" value="singing">
+            <label for="singing">Singing</label>
+            <input type="checkbox" name="interest" id="writing" value="writing">
+            <label for="dancing">Writing</label>
+            <br>
+            <br>
+
+            <!-- Course Select -->
+            <label for="cour">Course : </label>
+            <select name="Course" id="Cour">
+                <option value="" selected disabled hidden>Select Your Opition</option>
+                <option value="BCA">BCA</option>
+                <option value="BIM">BIM</option>
+                <option value="CSIT">CSIT</option>
+                <option value="BHM">BHM</option>
+            </select>
+            <br>
+            <br>
+
+            <!-- Terms and Conditions -->
+            <input type="checkbox" name="terms" id="terms" required>
+            <label for="terms">I agree to the terms and conditions</label>
+
+            <br>
+            <br>
+
+            <!-- Submit & Reset -->
+            <button type="submit" style="background-color: aliceblue;">Sign Up</button>
+            <button type="reset" style="background-color: aliceblue;">Reset</button>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
