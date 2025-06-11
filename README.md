@@ -12,3 +12,7 @@ focusing on building and styling web pages using HTML5 and CSS3.
 
 This is a personal learning repository, but feel free to fork and experiment. 
 Suggestions and improvements are welcome!
+
+## Contact
+For questions or feedback, please contact me at raajan.works@gmail.com.
+Feel free to personalize it with your name, repository link, and any additional details!
