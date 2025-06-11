@@ -1,4 +1,4 @@
-## HTML
+## HTML & CSS Fundamentals: College Learning Exercises
 
 ## Overview
 This repository contains the practice files and exercises from my college course on HTML and CSS. It covers the foundational concepts of web development, 
