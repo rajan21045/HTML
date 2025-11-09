@@ -11,7 +11,7 @@ focusing on building and styling web pages using HTML5 and CSS3.
  - CSS3
 
 ## Contributing
-
+ 
 This is a personal learning repository, but feel free to fork and experiment. 
 Suggestions and improvements are welcome!
  
